@@ -36,7 +36,8 @@ header {
   border: 4px;
   border-radius: 8px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 30p
+px gold;
   border-color: gold;
   padding: 20px;
   background: rgba(48, 0, 48, 0.644);
@@ -89,7 +90,8 @@ body {
   border: 4px;
   border-radius: 8px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 20p
+px gold;
   border-color: gold;
   padding: 20px;
   background: rgba(48, 0, 48, 0.644);
@@ -109,7 +111,8 @@ body {
   border-radius: 500px;
   margin: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 30p
+px gold;
   border-color: gold;
 }
 #git {
@@ -145,7 +148,8 @@ body {
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 30p
+px gold;
   border-color: gold;
 }
 #box2 {
@@ -162,8 +166,13 @@ body {
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 30p
+px gold;
   border-color: gold;
+}
+#logos{
+  display: flex;
+  gap: 50px;
 }
 #box3 {
   display: flex;
@@ -175,7 +184,8 @@ body {
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 30p
+px gold;
   border-color: gold;
   gap: 50px;
 }
@@ -188,7 +198,8 @@ body {
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30px 10px gold;
+  box-shadow: 0px 0px 30p
+px gold;
   border-color: gold;
 }
 .titulos {
@@ -199,6 +210,8 @@ body {
   border-style: solid;
   box-shadow: 0px 0px 30px 10px rgba(201, 2, 201, 0.377);
   border-color: rgba(201, 2, 201, 0.377);
+  display: flex;
+  justify-content: center;
 }
 .links {
   color: gold;
@@ -224,7 +237,20 @@ body {
   border-color: rgba(201, 2, 201, 0.678);
   transform: translateY(-3px);
 }
+.img-blog{
+  border-radius: 10px;
+  width: 90%;
+}
 @media (max-width: 768px) {
+  #todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+  }
   #flecha {
     display: flex;
     justify-content: center;
@@ -233,7 +259,15 @@ body {
     height: 30px;
   }
   #botones {
-    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bot{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -18px;
   }
   #box {
     display: flex;
