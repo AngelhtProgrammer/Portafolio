@@ -36,8 +36,7 @@ header {
   border: 4px;
   border-radius: 8px;
   border-style: solid;
-  box-shadow: 0px 0px 30p
-px gold;
+  box-shadow: 0px 0px 30px 5px gold;
   border-color: gold;
   padding: 20px;
   background: rgba(48, 0, 48, 0.644);
@@ -90,8 +89,7 @@ body {
   border: 4px;
   border-radius: 8px;
   border-style: solid;
-  box-shadow: 0px 0px 20p
-px gold;
+  box-shadow: 0px 0px 20px 5px gold;
   border-color: gold;
   padding: 20px;
   background: rgba(48, 0, 48, 0.644);
@@ -111,8 +109,7 @@ px gold;
   border-radius: 500px;
   margin: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30p
-px gold;
+  box-shadow: 0px 0px 30px 5px gold;
   border-color: gold;
 }
 #git {
@@ -148,8 +145,7 @@ px gold;
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30p
-px gold;
+  box-shadow: 0px 0px 30px 5px gold;
   border-color: gold;
 }
 #box2 {
@@ -166,11 +162,10 @@ px gold;
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30p
-px gold;
+  box-shadow: 0px 0px 30px 5px gold;
   border-color: gold;
 }
-#logos{
+#logos {
   display: flex;
   gap: 50px;
 }
@@ -184,8 +179,7 @@ px gold;
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30p
-px gold;
+  box-shadow: 0px 0px 30px 5px gold;
   border-color: gold;
   gap: 50px;
 }
@@ -198,8 +192,7 @@ px gold;
   padding: 8px;
   border-radius: 20px;
   border-style: solid;
-  box-shadow: 0px 0px 30p
-px gold;
+  box-shadow: 0px 0px 30px 5px gold;
   border-color: gold;
 }
 .titulos {
@@ -237,17 +230,17 @@ px gold;
   border-color: rgba(201, 2, 201, 0.678);
   transform: translateY(-3px);
 }
-.img-blog{
+.img-blog {
   border-radius: 10px;
   width: 90%;
 }
 @media (max-width: 768px) {
-  #todo{
+  #todo {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  body{
+  body {
     display: flex;
     justify-content: center;
   }
@@ -262,7 +255,7 @@ px gold;
     display: flex;
     flex-direction: column;
   }
-  .bot{
+  .bot {
     height: 50px;
     display: flex;
     justify-content: center;
